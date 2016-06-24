@@ -1,0 +1,38 @@
+*{
+	font-family: "Open Sans";
+}
+body{
+	margin:0;
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	padding-top: 0.5em;
+}
+.header>.logo{
+	flex:1;
+	background-image: url("images/logo.png");
+	background-repeat: no-repeat;
+	margin-left: 3em;
+	}
+.header>.drops{
+	display: flex;
+	flex-direction: row;
+	padding-right: 2em;
+}
+.header>.drops>*{
+	padding:1em;
+	color:white;
+	font-weight: 700;
+}
+.top-navigate:after{
+	position:absolute;
+	top:0;
+	left:0;
+	content: '';
+	z-index:-1;
+	width:100%;
+	height:100%;
+	background-image: url("images/sara_0.jpg");
+	background-repeat: no-repeat;
+}
