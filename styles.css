@@ -4,6 +4,16 @@
 body{
 	margin:0;
 }
+a:-webkit-any-link {
+	    color: #efff1d;
+	    text-decoration:none;
+}
+.white{
+	color: white;
+}
+a:-webkit-any-link:hover {
+	    text-decoration: underline;
+}
 .header{
 	display: flex;
 	flex-direction: row;
@@ -35,4 +45,153 @@ body{
 	height:100%;
 	background-image: url("images/sara_0.jpg");
 	background-repeat: no-repeat;
+}
+.whit>*{
+	color:white;
+}
+.seps>*{
+	display:flex;
+	flex-direction:row;
+	padding-top:.5em;
+	padding-bottom:.5em;
+}
+.seps>div>div:nth-of-type(1){
+	flex:1;
+}
+.seps>div>div:nth-of-type(2){
+	flex:2;
+}
+.undl{
+	border-bottom: 2px solid #efff1d;
+}
+
+[class^='artc']{
+	padding:5em;
+	padding-bottom: 17em;
+}
+.quote,.quote2{
+    padding: 3.4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background: #efeff6;
+    color: #48485e;
+    font-size: x-large;
+}
+.split{
+	display:flex;
+	flex-direction: row;
+	padding-top: 2em;
+}
+.left{
+	flex:3;
+    color: #48485e;
+	padding-left: 5em;
+	padding-right: 7em;
+}
+.left>div,.right>div{
+	padding-bottom: 1em;
+}
+.right{
+	flex:2;
+}
+.grey-white{
+	background:white;
+	font-weight: 700;
+    line-height: 2em;
+}
+.right>*{
+	/*padding:2em;*/
+	padding-left: 0;
+}
+span.q{
+	font-size:-webkit-xxx-large;
+	position: relative;
+    top: 0.3em;
+    left: -0.1em;
+}
+.blk-im {
+    padding: 7em;
+    padding-top: 1em;
+    padding-bottom: 0em;
+}
+.next-nav{
+	color:#2abf9e;
+}
+.foot{
+	background-color: #48485e;
+	color: white;
+}
+.signup{
+	background: #2abf9e;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 3.4em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.split-bottom{
+	padding: 5em;
+	display: flex;
+	flex-direction: row;
+}
+.split-bottom>div{
+	display:flex;
+	flex:1;
+	flex-direction: column;
+}
+.p1{
+	flex:3 !important;
+}
+.p1>div:first-child{
+	font-size: -webkit-xxx-large;
+	font-weight: bolder;
+}
+.split-bottom>div:not(.p1)>div:first-child{
+	color:#2abf9e;
+	font-weight: bolder;
+	padding-bottom: 1.5em;
+	cursor: pointer;
+}
+.split-bottom>div:not(.p1)>div:nth-of-type(n+2):hover{
+	color:yellow;
+	border-bottom:1px solid yellow;
+}
+.email
+    {
+    	background: rgba(255,255,255,.1);
+	    border: none;
+	    height: 3em;
+	    padding-left: 1em;
+	    flex: 0.57;
+	    border-radius:.2em;
+    }
+.email:focus{
+	outline: none;
+	color: white;
+	background: rgba(0,0,0,.5);
+}
+.p1>form{
+	padding-top: 1em;
+	display: flex;
+}
+.p1>form>button{
+	background:yellow;
+	font-weight: bolder;
+	border:none;
+	text-transform: uppercase;
+	border-radius:.2em;
+}
+    .hyper{
+    cursor: pointer;
+}
+.beneath{
+	background: #2a2a33;
+    height: 1em;
+    padding: .5em;
+    font-size: small;
+    padding-left: 6.4em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    color:white !important;
 }
