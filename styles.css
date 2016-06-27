@@ -66,8 +66,9 @@ a:-webkit-any-link:hover {
 }
 
 [class^='artc']{
-	padding:5em;
-	padding-bottom: 17em;
+	padding: 3.6em;
+    padding-bottom: 6.4em;
+    font-size: x-large;
 }
 .quote,.quote2{
     padding: 3.4em;
